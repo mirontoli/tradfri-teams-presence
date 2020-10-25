@@ -26,5 +26,5 @@ Start the `main.py` and keep it running:
 ```bash
 nohup python3 main.py &
 ```
-On the first it will ask you to paste an URL into your browser and paste the redirect url. After that the tokens are saved in the file `my_token.txt` (listed in the `.gitignore`)
+On the first run it will ask you to paste an URL into your browser and paste the redirect url. After that the tokens are saved in the file `my_token.txt` (listed in the `.gitignore`)
 
