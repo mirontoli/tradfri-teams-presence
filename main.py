@@ -14,7 +14,8 @@ colors = {
     'Busy': 'red',
     'DoNotDisturb': 'red',
     'Available': 'green',
-    'Away': 'yellow'
+    'Away': 'yellow',
+    'BeRightBack': 'yellow'
 }
 presence = Presence(con=account.connection,protocol=protocol)
 
