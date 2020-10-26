@@ -3,8 +3,12 @@ from presence import Presence
 import light
 import time
 from datetime import datetime, timedelta
+import configparser
 
-credentials = ('43d7142f-05ba-4cbc-a295-086122d7efad',)
+conf = configparser.ConfigParser()
+conf.read('config.cfg')
+client_id = conf.get('o365','client_id')
+credentials = (client_id,)
 protocol = MSGraphProtocol(api_version='beta')
 token_backend = FileSystemTokenBackend(token_path='.', token_filename='my_token.txt')
 account = Account(credentials, auth_flow_type='public',protocol=protocol,token_backend=token_backend)
