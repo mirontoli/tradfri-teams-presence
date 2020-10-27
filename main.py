@@ -12,7 +12,7 @@ credentials = (client_id,)
 protocol = MSGraphProtocol(api_version='beta')
 token_backend = FileSystemTokenBackend(token_path='.', token_filename='my_token.txt')
 account = Account(credentials, auth_flow_type='public',protocol=protocol,token_backend=token_backend)
-scopes = ['basic','https://graph.microsoft.com/Presence.Read']
+scopes = ['https://graph.microsoft.com/Presence.Read']
 colors = {
     'Offline': 'blue',
     'Busy': 'red',
