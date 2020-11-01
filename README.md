@@ -8,7 +8,7 @@ More details in my blog post:
 * Raspberry Pi Zero W with Raspberry Pi OS Light Buster (although, other client will work)
 * python3 and pip3
 * Trådfri Gateway, Remote and an RGB Light
-* [libcoap-client](https://gist.github.com/mirontoli/b71d94ea4da162b1136d8d1d3da853cc#file-alert-step3-install-libcoap-sh)
+* [coap-client](https://gist.github.com/mirontoli/b71d94ea4da162b1136d8d1d3da853cc#file-alert-step3-install-libcoap-sh) and a new [preshared key](https://gist.github.com/mirontoli/b71d94ea4da162b1136d8d1d3da853cc#file-alert-step3-preshared-key-sh) for communication with the Trådfri Gateway.
 * [O365 python module](https://pypi.org/project/O365/)
 * Microsoft Graph API and consent to the used app (or your own)
 * Teams (where the presence is set)
