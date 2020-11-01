@@ -28,3 +28,10 @@ nohup python3 main.py &
 ```
 On the first run it will ask you to paste an URL into your browser and paste the redirect url. After that the tokens are saved in the file `my_token.txt` (listed in the `.gitignore`)
 
+# Stopping the script
+Find the process id and kill it:
+```bash
+ps -aux | grep main.py #e.g. 10380
+kill 10380
+```
+
