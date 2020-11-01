@@ -26,7 +26,8 @@ presence = Presence(con=account.connection,protocol=protocol)
 while True:
 
     now = datetime.now()
-    if now.hour > 17:
+    # if later than 17.00 or later than Friday (4) => sleep
+    if now.hour > 17 or now.weekday() > 4:
         print('time to rest!')
         tomorrow = now + timedelta(days=1)
         t = tomorrow
