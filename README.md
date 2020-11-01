@@ -1,13 +1,14 @@
 # tradfri-teams-presence
 Use your raspberry pi to fetch your current presence in Teams and show it with a Trådfri RGB smart light from IKEA.
 
-The corresponding blog post will be linked to shortly.
+More details in my blog post:
+* [DIY: Integrating Trådfri lights with Teams presence](https://chuvash.eu/2020/10/27/diy-integrating-tradfri-lights-with-teams-presence/)
 
 # Prerequisites
 * Raspberry Pi Zero W with Raspberry Pi OS Light Buster (although, other client will work)
 * python3 and pip3
 * Trådfri Gateway, Remote and an RGB Light
-* libcoap-client
+* [libcoap-client](https://gist.github.com/mirontoli/b71d94ea4da162b1136d8d1d3da853cc#file-alert-step3-install-libcoap-sh)
 * [O365 python module](https://pypi.org/project/O365/)
 * Microsoft Graph API and consent to the used app (or your own)
 * Teams (where the presence is set)
